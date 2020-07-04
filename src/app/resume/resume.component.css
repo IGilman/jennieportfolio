@@ -1,0 +1,54 @@
+.resume-container{
+    margin: 15px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.resume-content{
+    margin-bottom: 10px;
+}
+
+.content{
+    margin-bottom: 10px;
+}
+
+.skills-container{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.experience-container{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+@media only screen and (min-width: 768px){
+
+.header-container{
+    width: 20%;
+    justify-content: initial;
+
+}
+
+.skills-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.experience-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.education-container{
+    display: flex;
+    align-items: baseline;
+}
+
+
+}

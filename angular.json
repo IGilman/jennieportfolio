@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jennie"
+    }
+  },
+  "defaultProject": "jennie",
+  "cli": {
+    "analytics": "8ce186b5-f8c6-4051-9eb4-93b8b4a0df47"
+  }
 }

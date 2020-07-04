@@ -1,0 +1,22 @@
+<!-- MOBILE -->
+<div class="header-mobile header">
+    <i (click)=toggleDisplay() class="fas fa-bars"></i>
+    <h1 class="jg">Jennie Gilman</h1>
+</div>
+<div>
+    <ul *ngIf="!isShow" class="li-container mli-container">
+        <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">Work Examples</a></li>
+        <li class="link"><a href="#">Contact Me</a></li>
+    </ul>
+</div>
+
+<!-- DESKTOP -->
+<div class="header-desktop header">
+    <h1>Jennie Gilman</h1>
+    <ul class="li-container">
+        <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">Work Examples</a></li>
+        <li class="link"><a href="#">Contact Me</a></li>
+    </ul>
+</div>

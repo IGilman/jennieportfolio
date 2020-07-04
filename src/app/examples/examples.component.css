@@ -1,0 +1,12 @@
+.example-container{
+    margin: 15px;
+}
+
+.img-container{
+    object-fit: contain;
+}
+
+.img-example{
+    width: 100%;
+    height: 100%;
+}
