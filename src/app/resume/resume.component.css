@@ -10,6 +10,7 @@
 
 .resume-content{
     margin-bottom: 10px;
+    
 }
 
 .content{
@@ -33,6 +34,10 @@
     width: 20%;
     justify-content: initial;
 
+}
+
+.content-container{
+    width: 80%;
 }
 
 .skills-container{

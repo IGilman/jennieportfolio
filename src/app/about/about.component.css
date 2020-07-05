@@ -5,9 +5,10 @@
 }
 
 .headshot{
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 .about-content{
@@ -39,6 +40,7 @@
     border: 1px solid black;
     margin-top: 10px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 768px){
@@ -48,26 +50,23 @@
     flex-direction: row;
     }
 
-    .headshot{
-        width: 50%;
-        height: auto;
-    }
+.about-content{
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 10px;
+}
 
-    .about-content{
-        justify-content: space-between;
-        margin: 0 10px;
-    }
+.about-header{
+    padding-top: 10px;
+}
 
-    .about-header{
-        padding-top: 10px;
-    }
-
-    .about{
-        margin-top: 0;
-    }
+.about{
+    margin-top: 0;
+}
 
     .icon-container{
         flex-direction: row;
+        min-width: 373px;
     }
 
     .icon-rowone{
