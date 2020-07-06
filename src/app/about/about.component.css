@@ -5,7 +5,7 @@
 }
 
 .headshot{
-    width: 50%;
+    width: 100%;
     height: auto;
     object-fit: contain;
     border-radius: 10px;
@@ -41,6 +41,7 @@
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px){
@@ -54,6 +55,10 @@
     width: 50%;
     justify-content: space-between;
     margin: 0 10px;
+}
+
+.headshot{
+    width: 50%;
 }
 
 .about-header{
