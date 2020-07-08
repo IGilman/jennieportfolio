@@ -1,5 +1,5 @@
 .example-container{
-    margin: 15px;
+  margin: 25px 15px;
 }
 
 .img-container{
@@ -27,7 +27,7 @@
 
   .img-container:hover .img-overlay {
     opacity: .7;
-    cursor: pointer;
+    
   }
 
   .overlay-text{
@@ -41,6 +41,9 @@
 
   .example-link{
       color: white;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
   }
 
 

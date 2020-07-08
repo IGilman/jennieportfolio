@@ -12,4 +12,18 @@ export class ExamplesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  islandLink() {
+    window.open("https://paidpost.newyorker.com/article/irelandsvoices/");
+  }
+
+  conanLink() {
+    window.open("https://www.youtube.com/watch?v=YV9EbYpXfZs");
+  }
+
+  irelandLink() {
+    window.open("https://drive.google.com/file/d/1oOzIixJtAM8O3xVHxU9IjBRAunIyxms2/view");
+  }
+
+
+
 }

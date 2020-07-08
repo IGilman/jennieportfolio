@@ -1,6 +1,5 @@
 .header{
-    margin: 15px;
-    border:  1px solid black;
+    margin: 0 15px 15px 25px;
 }
 
 .header-mobile{
@@ -33,10 +32,23 @@
     display: none;
 }
 
+.jg{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+
+.header-link{
+    color: #000066;
+}
+
 @media only screen and (min-width: 768px){
 
     .header-mobile{
         display: none;
+    }
+
+    .jg{
+        font-size: 50px;
     }
 
     .header-desktop{
